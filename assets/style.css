@@ -188,7 +188,7 @@ nav .fa {
     padding-top: 100px;
 }
 
-.about-us h1 {
+.about-us h2 {
     font-size: 30px;
     font-weight: 600;
 }
@@ -201,7 +201,7 @@ nav .fa {
     padding: 10px;
 }
 
-.aboutUs {
+.about-us-col {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
@@ -232,3 +232,14 @@ h3 {
         flex-direction: column;
     }
 }
+
+
+/********** partner section **********/
+
+.partner {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
