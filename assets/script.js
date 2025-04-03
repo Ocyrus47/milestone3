@@ -1,9 +1,9 @@
 var navLinks = document.getElementById("navLinks")
 
-function showMenu () {
+function showMenu () {                        // open menu bar for mobile devices
     navLinks.style.right = "0";
 }
 
-function hideMenu () {
+function hideMenu () {                        // close menu bar for mobile devices                 
     navLinks.style.right = "-200px";
 }
