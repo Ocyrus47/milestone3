@@ -115,6 +115,9 @@ nav img {
     transition: 2s;
 }
 
+nav .fa {
+    display: none;
+}
 
 /************ media queries **********/
 
@@ -135,6 +138,19 @@ nav img {
         right: 0;
         top: 0;
         z-index: 2;
-        text-align: center;
+        text-align: left;
+    }
+
+    nav .fa {
+        display: block;
+        text-align: left;
+        color: #fff;
+        cursor: pointer;
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    .nav-links ul {
+        padding: 30px;
     }
 }
